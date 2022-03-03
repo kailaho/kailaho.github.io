@@ -68,26 +68,9 @@ a:hover{
    font-size: 20px;
  }
 
- #homeTable{
-   margin-left: auto;
-   margin-right: auto;
- }
-
- img{
-   display:inline-block;
-   float:left;
-   margin: 10px 50px;
-   background-color: white;
- }
 
  html{
    background-color: white;
-     width: auto;
-     margin: auto;
-     border: 10px solid #d5f5ed; /* width, style, colour */
+     /*border: 10px solid #d5f5ed; /* width, style, colour */
 
- }
-
- #backTable{
-   float:right;
  }
