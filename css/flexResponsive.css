@@ -1,0 +1,21 @@
+@media screen and (min-width: 400px){
+  .wrapper{
+    display: flex;
+  }
+
+  .name{
+    order: 1;
+  }
+
+  nav {
+    order: 2;
+  }
+
+  #homepitcure{
+    order: 3;
+  }
+
+  #intro{
+    order: 4;
+  }
+}
