@@ -1,0 +1,262 @@
+@media screen and (min-width: 416px){
+  html{
+    width: 100%;
+      background-color: #0d5273;
+  }
+  .wrapper{
+    flex-wrap: nowrap;
+  }
+
+  body{
+    background-color: white;
+    margin: 70px;
+
+  }
+
+  .topbar{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .name{
+    flex: 1;
+    order: 1;
+    padding: 15px;
+  }
+
+  nav{
+    flex: 2;
+    order: 2;
+    padding: 80px 50px 50px 50px;
+  }
+
+  .navLink{
+    padding: 30px;
+  }
+
+  .container-1{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #homepitcure{
+    flex: 1;
+    order: 1;
+    padding: 20px 60px 60px 80px;
+  }
+
+  #intro {
+    flex: 3;
+    order: 2;
+    padding: 0px 30px 30px 30px;
+  }
+
+  #vans{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #koiFishVans{
+    flex: 1;
+    order: 1;
+    padding: 30px;
+    text-align: center;
+  }
+
+  #vansDescription{
+    flex: 2;
+    order: 2;
+    padding: 30px;
+  }
+
+  #poppies{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+
+  #flowers{
+    flex: 1;
+    order: 1;
+    text-align: center;
+    padding: 30px
+  }
+
+  #poppyDesc{
+    flex: 2;
+    order: 2;
+    padding: 30px;
+  }
+
+  #assignmentList{
+    padding: 0px 50px 50px 50px;
+  }
+
+  .contactContainer{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #contactpitcure{
+    flex: 1;
+    order: 1;
+    padding: 50px;
+    text-align: center;
+  }
+
+  #contactMe{
+    flex: 2;
+    order: 2;
+    padding: 30px;
+  }
+
+  .aboutContainer{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #resume{
+    flex: 2;
+    order:2;
+    padding: 30px;
+    text-align: center;
+    
+  }
+
+  #aboutStatement{
+    flex: 1;
+    order: 1;
+    padding: 40px;
+  }
+
+  iframe{
+    width: 100%;
+    height: 600px;
+  }
+}
+
+
+@media screen and (max-width: 415px){
+  html{
+      background-color: white;
+  }
+
+  body{
+    position: absolute;
+    margin: 10px;
+  }
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .name{
+    width: 70%;
+    padding: 20px 0px 0px 0px;
+    flex: 1;
+    order: 1;
+  }
+
+  nav{
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    order: 2;
+  }
+
+  .navLink{
+    padding: 10px;
+  }
+
+  #homepitcure{
+    padding: 20px;
+    flex: 1;
+    order: 3;
+    text-align: center;
+  }
+
+  #intro{
+    padding: 20px;
+    flex: 2;
+    order: 4;
+  }
+
+  #vans{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #koiFishVans{
+    flex: 1;
+    order: 1;
+    padding: 30px;
+    text-align: center;
+  }
+
+  #vansDescription{
+    flex: 2;
+    order: 2;
+    padding: 30px;
+  }
+
+  #poppies{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  #flowers{
+    flex: 1;
+    order: 1;
+    text-align: center;
+    padding: 30px
+  }
+
+  #poppyDesc{
+    flex: 2;
+    order: 2;
+    padding: 30px;
+  }
+
+  #assignmentList{
+    padding: 30px;
+  }
+
+  .contactContainer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contactpitcure{
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+  }
+
+  #contactMe{
+    flex: 2;
+    order: 2;
+    padding:  10px 30px 30px 30px;
+    text-align: center;
+  }
+
+  .aboutContainer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #resume{
+    flex: 2;
+    order:1;
+    padding: 30px;
+    text-align: center;
+  }
+
+  #aboutStatement{
+    flex: 2;
+    order: 1;
+    padding: 30px;
+    padding-top: 0px;
+  }
+}
