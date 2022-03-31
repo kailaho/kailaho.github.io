@@ -1,0 +1,21 @@
+
+#button1{
+  transition: all 1000ms ease-in-out;
+  font-size: 40px;
+}
+
+#button2{
+  transition: all 5ms ease-in-out;
+  font-size: 100px;
+}
+
+.was-clicked{
+  padding: 20px;
+  color: red;
+}
+
+.double-click{
+  background-color: orange;
+  color: black;
+  padding: 200px;
+}
