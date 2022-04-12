@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/newStyles.css">
+    <!--<link rel="stylesheet" href="./css/flex.css"> -->
+    <link rel="stylesheet" href="./css/final.css">
+    <script defer src="./js/scripts.js" charset="utf-8"></script>
+    <title>Final JavaScript Project: Word Collage</title>
+  </head>
+
+  <body>
+    <div id="wrapper">
+    <h1>Final Project: Word Collage</h1>
+    <p>This interactive tool allows you enter a paragraph or series of words into a text box. It then analyzes the paragraph you eneter, and increases the size
+    of the printed word by the number of times it occurs. It also generates a random color for the text, allowing you to create a colorful collage displaying
+    the frequency of certain words in a visual way. You can click the "Get Collage" button as many times as you want, until you are happy with how it looks.</p>
+    <div id="javaInput">
+    <!--<input style="height:200px; width:400px" type="text" placeholder="Place text here..." id="userInput">-->
+    <textarea id="userInput" rows="5" cols="100" style="resize:none;" placeholder="Enter your paragraph here"></textarea>
+    </div>
+
+    <div id="callFxnDiv">
+    <button id="callFunction" onclick="generate();">Get Collage</button>
+    <br></br>
+    <div "homeDiv">
+    <a id="backHome" href="index.html">back to home</a>
+  </div>
+
+    <canvas id="canvas" width = "200px" height = "200px"></canvas>
+  </div>
+</div>
+
+
+  </body>
+</html>

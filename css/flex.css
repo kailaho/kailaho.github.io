@@ -133,6 +133,24 @@
     width: 100%;
     height: 600px;
   }
+
+  #javaInput{
+    flex:1;
+    order: 1;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #callFunction{
+
+  }
+
+  #callFxnDiv{
+    flex: 1;
+    order: 1;
+    padding: 20px;
+    text-align: center;
+  }
 }
 
 
