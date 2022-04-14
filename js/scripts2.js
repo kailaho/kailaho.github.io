@@ -82,21 +82,33 @@ function randColor(){
 
 function generate(){
   var myArray = generateArray();
-  var x = 0;
+  var x = 50;
   var y = 0;
   var color = "ffffff";
 
   ctx.clearRect(0,0,WIDTH, HEIGHT);
 
   for(let i = 0 ; i <myArray.length; i++){
-    x = getRandNum(WIDTH - 200);
-    y = getRandNum(HEIGHT -200);
-    color = randColor();
-    console.log(color);
+    // y = y + 70;
+    // x = x + getRandNum(30);
+    // if(i%15 == 0){
+    //   y = 50;
+    //   x = x + 200;
+    // }
+    x = getRandNum(WIDTH);
+    y = getRandNum(HEIGHT);
+
+    //console.log(color);
     var size = 20;
     var printWord = myArray[i].word;
     for(let j = 0 ; j < myArray[i].count; j++){
       size = size + 20;
+    }
+
+    if(size <= 40){
+      color = "#e3e1e1";
+    } else{
+      color = randColor();
     }
 
     ctx.beginPath();

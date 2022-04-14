@@ -16,17 +16,31 @@ randomize.addEventListener('click', result);
 
 function result() {
 
+  var newStory = storyText;
+
+  var xItem = randomValueFromArray(insertX);
+  var yItem = randomValueFromArray(insertY);
+  var zItem = randomValueFromArray(insertZ);
+
+  newStory = newStory.replace(/:insertx:/g, xItem);
+  newStory = newStory.replace(/:inserty:/g, yItem);
+  newStory = newStory.replace(/:insertz:/g, zItem);
+
+  console.log(storyText);
+
   if(customName.value !== '') {
     const name = customName.value;
-
+    newStory = newStory.replace(/Bob/g, name);
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(300);
-    const temperature =  Math.round(94);
+    const weight = Math.round(300/14) + " stone";
+    const temperature =  Math.round((94 - 32) * (5/9)) + " centigrade";
 
+    newStory = newStory.replace(/300 pounds/g, weight);
+    newStory = newStory.replace(/94 fahrenheit/g, temperature);
   }
 
-  story.textContent = ;
+  story.textContent = newStory;
   story.style.visibility = 'visible';
 }
