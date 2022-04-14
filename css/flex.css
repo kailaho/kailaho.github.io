@@ -151,6 +151,11 @@
     padding: 20px;
     text-align: center;
   }
+
+  .randomize{
+    background-color: #f1cc5c;
+    font-style: "Trebuchet MS";
+  }
 }
 
 
