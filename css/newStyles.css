@@ -62,3 +62,12 @@ a:hover{
    font-weight: bold;
    font-size: 20px;
  }
+
+ #contactSubmit{
+   background-color: #f1cc5c;
+   padding: 10px;
+   border: none;
+   border-radius: 8px;
+   font-style: 'Trebuchet MS';
+   justify-content: center;
+ }

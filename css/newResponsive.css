@@ -116,6 +116,11 @@
     grid-row: 2;
   }
 
+  #contactForm{
+    padding: 20px;
+    justify-content: center;
+
+  }
 }
 
 @media screen and (max-width:415px){

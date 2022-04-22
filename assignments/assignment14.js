@@ -50,6 +50,8 @@ for( var i = 0; i < company.employees.length; i++){
 console.log("Problem 4", sum);
 
 
+
+//Problem 5 Raise Increase
 function increaseBy10(num){
   return num * 1.1;
 }
@@ -63,7 +65,7 @@ for(var i = 0; i < company.employees.length; i++){
 }
 console.log("Problem 5", company);
 
-
+//Problem 6 WFH 
 const peopleWFH = ['Anna', 'Sam'];
 for(var i = 0; i < company.employees.length; i++){
   if(peopleWFH.includes(company.employees[i].name)){

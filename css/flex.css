@@ -156,7 +156,19 @@
     background-color: #f1cc5c;
     font-style: "Trebuchet MS";
   }
+
+  #contactForm{
+    flex:3;
+    order: 3;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #contactName{
+    margin: 20px;
+  }
 }
+
 
 
 @media screen and (max-width: 415px){
