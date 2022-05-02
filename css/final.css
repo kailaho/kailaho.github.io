@@ -17,3 +17,11 @@
 #canvas{
   padding: 30px;
 }
+
+button{
+  background-color: #f1cc5c;
+  font-family: "Trebuchet MS";
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+}
