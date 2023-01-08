@@ -1,0 +1,123 @@
+@media screen and (min-width: 416px){
+
+  html{
+    width: 100%;
+      background-color: #ffffff;
+  }
+
+  body{
+    background-color: white;
+    font-family: courier, monospace;
+
+  }
+
+
+
+#navText{
+  position: absolute;
+  left: 54%;
+  top: 65%;
+  text-align: center;
+  list-style: none;
+  font-weight: bolder;
+  line-height: 200%;
+}
+
+
+.blockLink{
+  margin-top: 25px;
+}
+  #outerWrapper{
+    justify-content: center;
+    margin-right: 3.5%;
+    margin-left: 3.5%;
+    }
+
+  #wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .gridPic{
+    width: 25%;
+    height: auto;
+    margin: 10px;
+    position: relative;
+    filter: grayscale(100%);
+
+  }
+
+  .gridPic:hover{
+    width: 25%;
+    height: auto;
+    margin: 10px;
+    position: relative;
+    filter: none;
+  }
+
+
+
+a:link{
+  text-decoration: none;
+}
+a:hover{
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.topbar{
+  display: flex;
+  flex-direction: row;
+}
+
+nav{
+  flex: 2;
+  order: 2;
+  padding: 80px 50px 50px 50px;
+}
+
+.navLink{
+  padding: 20px;
+}
+
+#resume{
+  flex: 2;
+  order:2;
+  padding: 30px;
+  text-align: center;
+
+}
+
+iframe{
+  width: 100%;
+  height: 600px;
+}
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 415px){
+
+}

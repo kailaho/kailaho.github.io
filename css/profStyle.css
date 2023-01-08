@@ -1,0 +1,64 @@
+
+
+/* ul{
+  list-style-type: none;
+}
+
+li{
+  padding: 20px;
+} */
+
+
+p{
+  font-size: 20px;
+}
+
+h1 {
+  /* text-transform: uppercase; */
+  font-size: 60px;
+  color: #5dabbd;
+}
+
+h2{
+  /* text-transform: uppercase; */
+  font-size: 35px;
+  color: #5dabbd;
+}
+
+h3{
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #5dabbd;
+}
+
+h4{
+  font-size: 25px;
+  color: #5dabbd;
+}
+
+h5{
+  font-size: 20px;
+  font-weight: bold;
+  color: #5dabbd;
+}
+
+h6{
+  font-size: 20px;
+  font-style: italic;
+  color: #5dabbd;
+}
+
+a{
+  color: black;
+  font-size: 20px;
+}
+
+
+ #contactSubmit{
+   background-color: #f1cc5c;
+   padding: 10px;
+   border: none;
+   border-radius: 8px;
+   font-style: 'Trebuchet MS';
+   justify-content: center;
+ }
