@@ -15,7 +15,7 @@
 
 #navText{
   position: absolute;
-  left: 57%;
+  left: 54%;
   top: 67%;
   text-align: center;
   list-style: none;
@@ -144,6 +144,29 @@ iframe{
   width: 100%;
   height: 600px;
 }
+
+.graphicWrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.graphicRow1{
+  display: flex;
+  flex-direction: row;
+}
+
+#courseCont1 {
+  position: relative;
+  text-align: center;
+  color: blue;
+}
+
+.imageTxtOverlay{
+  position: absolute;
+  bottom: 200px;
+  left: 200px;
+}
+
 
 
 
