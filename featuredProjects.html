@@ -35,7 +35,9 @@
         }
 
         .small-pic{
-          width: 20%;
+          width:30%;
+          height: auto;
+          border-radius: .5em;
         }
         .project-description {
             flex: 2;
@@ -47,6 +49,16 @@
         .image-description {
             font-style: italic;
         }
+
+        li{
+          padding: .5em;
+        }
+
+        .bottom3wrapper{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+        }
     </style>
 </head>
 <body>
@@ -56,60 +68,81 @@
     <section class="project-section">
         <div class="project-image">
             <img class= "hero-image" src="img/sensoryAquarium.JPG" alt="Project 1">
-            <p class="image-description">This project is a classroom accessory designed to help children with austim relax and calm their senses by sorting shapes and creating music. The combination of light and sound sensory features allow them to decompress while also learning as the tool guides them through learning a piano song by following lights and pressing on the fish.  </p>
         </div>
         <div class="project-description">
             <h2>Sensory Aquarium</h2>
-            <div class="project-paragraph">
-                <h3>Process Details</h3>
-                <p>In creating this project, I wanted to create something that had the capability to have an impact for children who may struggle to learn in a traditional setting. My freshman year, I worked on a group project with a teacher for students with autism, and she requested that we design  a device that helps her students stay focused and decompressed in the classroom. Our solution was a hand-compression device, as compression of certain body parts has been proven to help children with autism remain calm. I was inspired by this project to try to create another device, this time one that utilizied my skills in physical computing, that would help these students decompress in a classroom setting. I came up with the sensory aquarium, which uses a combination of Ardiuno code, LED lights, and a piezo buzzer to create a visual and auditory experience for the users. First, students sort the fish into their cut out positions, as sorting is an activity proven to help those with autism decompress. Once the fish are placed, the user can press on the fish which each emit a different piano note. There are two modes to toggle between: one that allows the user to play the notes freely, and one that guides the user through learning a piano song by lighting up the LED lights above the fish coordinating to the note.  </p>
+            
+                <p class="project-paragraph">Sensory Aquarium is a classroom accessory designed to help children with austim 
+                  relax and calm their senses by sorting shapes and creating music. The combination of light and sound sensory
+                   features allow them to decompress while also learning as the tool guides them through learning a piano song 
+                   by following lights and pressing on the fish.  </p>
+              <div class="bottom3wrapper">
+                <div class="skills-list">
+                <h3>Demonstrated Skills</h3>
+                <ul>
+                  <li>Arduino IDE</li>
+                  <li>Product Development</li>
+                  <li>Physical Computing</li>
+                  <li>C++ Programming</liu>
+                </ul>
+              </div>
                 <img class ="small-pic"src="img/sensoryAquariumP1.JPG" alt="Project 1 Small 1">
                 <img class ="small-pic"src="img/sensoryAquariumP2.JPG" alt="Project 1 Small 2">
-            </div>
+                </div>
         </div>
     </section>
   <!--Project 2-->
     <section class="project-section">
         <div class="project-image">
             <img class="hero-image" src="img/chessSet.jpg" alt="Project 2">
-            <p class="image-description">As part of the form final project, I designed a chess set that is both elegant and portable. It is meant to be simple and easy to manufacture, but still have an appealing and functional design.</p>
+            
         </div>
         <div class="project-description">
-            <h2>Chess Set</h2>
-            <div class="project-paragraph">
-              <h3>Process Details</h3>
-                <p>For this project, the main focus was demonstrating my 3D modelling skills in Sketchup in order to design a chess set that met the requirements
-                of being easy to transport, and have a box for storing the pieces. I wanted to make an elegant and easy to use chess set, and since it had to store
-                  pieces, I wanted to take it one step further and make it travel-friendly by creating a design where the pieces snap onto the board in order to prevent
-                  them from falling. I used a laser cutter and thin plywood sheets to create every element of the board, and designed each piece in Sketchup. The pieces
-                  are slotted together since I was limited by the 2D dimension of the plywood, and everything is wood-glued together. There is a drawer with a leather strap
-                  that allows the user to store the pieces. This project was a good test of my 3D modelling and design skills, as I had to be creative and resourceful in order
-                  to create a deisgn that fit both the constraints and I was happy with given the materials and tools I had available. I learned a lot about the fabrication
-                process, design process, and prototyping prcoess in creating this piece, as I had never worked with 3D modeling software before. I found that while it was
-              a bit tedious at times, it is an extremely powerful tool. </p>
+            <h2>Precision Play Chess Set</h2>
+           
+              <p class="project-paragraph" >Precision play chess set is designed to be both elegant and portable. Created
+                using 3D modeling software and laser cutting, it is meant to be simple and easy to manufacture
+                 but still have an appealing and functional design.</p>
+                 <div class="bottom3wrapper">
+                  <div class="skills-list">
+                <h3>Demonstrated Skills</h3>
+                <ul>
+                  <li>SketchUp</li>
+                  <li>3D Modeling</li>
+                  <li>Product Development</li>
+                  <li>Laser Cutting</li>
+                </ul>
+              </div>
                 <img class="small-pic" src="img/chessSetP1.jpg" alt="Project 2 Small 1">
                 <img class="small-pic" src="img/chessSetP2.jpg" alt="Project 2 Small 2">
-            </div>
+                </div>
         </div>
     </section>
   <!--Project 3-->
     <section class="project-section">
         <div class="project-image">
             <img class="hero-image" src="img/attentio.png" alt="Project 2">
-            <p class="image-description">This was a group project (Seren Chapin, Campbell Mahan) in which we were tasked in creating an app based on observations we made on how we
-            spent our alone time. We created a mockup for a mindfulness app that helps the user relax and engage in mindful activities in an engaging and fun way. </p>
         </div>
         <div class="project-description">
             <h2>Alone Time - Group Project</h2>
-            <div class="project-paragraph">
-                <p>Working in groups, we were challenged to create a product that provides a solution for an issue that we observed about how we spend our alone time.
-                We observed individually and then discussed that often times when we are alone, we feel the constant need to fill our time with some sort of media or entertaiment.
-                We wanted to create a solution to this that provided a way for users to consume media while still being productive and unwinding. Working through the design
-              process by brainstorming, creating fictional personas, and prototyping, we came up with "Attentio," a mindfulness app centered around growing virtual plants as the user completes
-              certain mindfulness challenges. Our final product was an Adobe XD mockup that demonstrates the functionality of the app. This project was very enlightening in how different
-              the design process is when working in a group than when working alone. It allows for a broader range of perspective and ideas, which brings about a solution that
-              is often more fitted to the needs of the users and their goals. This project was an important learning milestone for working in design teams, and taught me a lot about
-              how to communicate and express creative ideas effectively. </p>
+            
+              <p class="project-paragraph">Alone Time is a group project (Seren Chapin, Campbell Mahan) in which we 
+                were tasked in creating an app based on observations we made on how we
+                spent our alone time. We created a mockup for a mindfulness app that helps the user relax 
+                and engage in mindful activities in an engaging and fun way by completing mindfulness tasks
+                to water plants and grow their virtual garden. My specific role was in designing the building and 
+                visuals for the main page of the app. </p>
+                <div class="bottom3wrapper">
+                  <div class="skills-list">
+                <h3>Demonstrated Skills</h3>
+                <ul>
+                  <li>Adobe Photoshop</li>
+                  <li>Wireframing</li>
+                  <li>Storyboarding</li>
+                  <li>Collaboration</li>
+                  <li>UX/UI Design</li>
+                </ul>
+                </div>
                 <img class= "small-pic" src="img/attentioP1.jpg" alt="Project 2 Small 1">
                 <img  width = 45% src="img/attentioP2.jpg" alt="Project 2 Small 2">
             </div>
@@ -119,20 +152,24 @@
     <section class="project-section">
         <div class="project-image">
             <img class="hero-image" src="img/lampSquare.JPG" alt="Project 2">
-            <p class="image-description">Using physical computing and the Arduino IDE, I created a color changing lamp with different modes. The lamp is meant
-            to be aestheitcally pleasing and playful.</p>
+            
         </div>
         <div class="project-description">
             <h2>Color-changing Lamp</h2>
-            <div class="project-paragraph">
-                <p>This project is meant to demonstrate the use of analog inputs that translate to a digital output. In this case, the user can turn two knobs on the outside
-                of the lamp: one to change the modes (between continuous color cycling or choosing a static color) and one to choose the color should they choose to have
-              a static color. I liked the idea of colored lights as the output, but found that the light from the LED strip was too harsh. I was inspired by paper lanterns
-            that are often used as dectoration, and thought that paper would be a great way to diffuse the light. Additionally, I didn't want a simple rectanglar or cubical
-          lamp, so I designed a cash-register-like shape and hand made the frame for the lamp in the wood shop to be the exact size of the breadboard that housed the Arduino.
-        This project was a test of my aestheic design skills, but more so my physical computing skills as I struggled with some hardware aspects of the piece. I found that
-        due to my extensive experience in C++, coding in the Arduino IDE was a pleasant experience and challenged me to think about coding in a new way that extended beyond
-      the typical use of C++ coding. </p>
+            
+              <p class="project-paragraph"> Created using physical computing and the Arduino IDE, the color-changing lamp has different modes the user
+                can choose from, either cycling through the colors repeatedly, or choosing a static color using a dial on the side
+                of the lamp. It is meant to be aestheitcally pleasing and playful.</p>
+              <div class="bottom3wrapper">
+                <div class="skills-list">
+              <h3>Demonstrated Skills</h3>
+              <ul>
+                <li>Manufacturing</li>
+                <li>Arduino IDE</li>
+                <li>Soldering</li>
+                <li>C++</li>
+              </ul>
+              </div>
                 <img class="small-pic" src="img/lampP1.JPG" alt="Project 2 Small 1">
                 <img class="small-pic" src="img/lampP2.JPG" alt="Project 2 Small 2">
             </div>
